@@ -14,8 +14,8 @@ function App() {
     }
   ]);
 
-  const addNewMember = member => {
-    setMembers([...members, member]);
+  const addNewMember = newMember => {
+    setMembers([...members, newMember]);
   };
 
   return (
